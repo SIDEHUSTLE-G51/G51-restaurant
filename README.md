@@ -38,10 +38,29 @@ for people working on same page together kindly run the following command:
 git branch -a
 ```
 
-The above code list all the branches avaliable, then switch to the branches you want to work on.
+The above code list all the branches avaliable.
 
-after switching to your desired branch, run the following git command to fetch any update made to the branch before writing your own line of code:
+Run the following git commit to switch to the branches you desire to work on.
+
+```
+git checkout "branch name"
+```
+
+---
+
+### **Note:** adding the flag -b is not needed as the branch will have already been created in this case
+
+---
+
+for example
+
+```
+git checkout about
+```
+
+after switching to your desired branch, run the following git command
+**to fetch any update made to the branch before writing your own line of code:**
+
 ```
 git pull
 ```
-
