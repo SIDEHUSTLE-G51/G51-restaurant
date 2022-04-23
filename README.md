@@ -18,4 +18,21 @@ For example:
 git clone https://github.com/SIDEHUSTLE-G51/G51-restaurant.git
 ```
 
-### Having clone the repo, you will have a fresh copy of the updated code
+### Having clone the repo, you will have a fresh copy of the updated code on your local machine
+
+so navigate into the folder using Cd { Change directory }
+
+```
+cd "folder name"
+```
+
+## For Teammate
+
+for people working on same page together kindly run the following command:
+
+```
+git branch -a
+```
+
+The above code list all the branches avaliable, then switch to the branches you want to work on,
+then run the next command:
