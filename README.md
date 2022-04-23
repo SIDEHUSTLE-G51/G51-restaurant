@@ -38,5 +38,10 @@ for people working on same page together kindly run the following command:
 git branch -a
 ```
 
-The above code list all the branches avaliable, then switch to the branches you want to work on,
-then run the next command:
+The above code list all the branches avaliable, then switch to the branches you want to work on.
+
+after switching to your desired branch, run the following git command to fetch any update made to the branch before writing your own line of code:
+```
+git pull
+```
+
