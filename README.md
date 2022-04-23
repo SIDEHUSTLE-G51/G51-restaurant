@@ -64,3 +64,16 @@ after switching to your desired branch, run the following git command
 ```
 git pull
 ```
+
+Having write your own line of code for a particular branch, kindly push to the branch using the following git command
+
+```
+git push -u origin "branch name"
+
+```
+
+for example
+
+```
+git push -u origin aboutPage
+```
