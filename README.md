@@ -2,6 +2,8 @@
 
 This readme aims to simplify and guide the way on how to make your first contribution. If you are looking to make your first contribution, follow the steps below.
 
+# Step 1
+
 ## Clone the repository
 
 Now clone the main repo link here [(https://github.com/SIDEHUSTLE-G51/G51-restaurant.git)] to your machine. Having accepting the invites from nick you will have access to pull & push from this repo, Go to your GitHub account, click on the code button and then click the copy to clipboard icon which is the code above.
@@ -24,15 +26,27 @@ git clone https://github.com/SIDEHUSTLE-G51/G51-restaurant.git
 
 ![Home](https://user-images.githubusercontent.com/21057939/164898329-1123cd47-5bd8-4ce5-8729-cd08f7cb4634.png)
 
-so navigate into the folder using Cd { Change directory }
+# Step 2
+
+Navigate into the folder using Cd { Change directory }
 
 ```
 cd "folder name"
 ```
 
+# Step 3
+
+install the necessary require dependency [node_modules] by using the following npm command:
+
+```
+npm install
+```
+
+# Step 4
+
 ## For Teammate
 
-for people working on same page together kindly run the following command:
+for people working on same page together, run the following git command:
 
 ```
 git branch -a
@@ -58,9 +72,26 @@ for example
 git checkout about
 ```
 
+# Step 5
+
 after switching to your desired branch, run the following git command
 **to fetch any update made to the branch before writing your own line of code:**
 
 ```
 git pull
+```
+
+# Step 6
+
+Having write your own line of code for a particular branch, kindly push to the branch using the following git command
+
+```
+git push -u origin "branch name"
+
+```
+
+for example
+
+```
+git push -u origin aboutPage
 ```
