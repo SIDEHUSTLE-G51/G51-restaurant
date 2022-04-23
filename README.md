@@ -19,3 +19,7 @@ git clone https://github.com/SIDEHUSTLE-G51/G51-restaurant.git
 ```
 
 ### Having clone the repo, you will have a fresh copy of the updated code
+
+#UI Concept Designs
+
+![Home](https://user-images.githubusercontent.com/21057939/164898329-1123cd47-5bd8-4ce5-8729-cd08f7cb4634.png)
