@@ -1,10 +1,10 @@
 import React from "react";
-import Card from "../ProductsPage/Card";
+import ProductCard from "../ProductCard/ProductCard";
 
 const product = (params) => {
   return (
     <div>
-      <Card />
+      <ProductCard />
     </div>
   );
 };
