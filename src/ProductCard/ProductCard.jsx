@@ -20,6 +20,13 @@ const productCard = () => {
           placerat felis. Faucibus vitae auctor consectetur.
         </p>
       </article>
+      <div>
+        <div>
+          <button type="submit">ORDER NOW</button>
+          <span>0</span>
+        </div>
+        <span>#1500</span>
+      </div>
     </div>
   );
 };
