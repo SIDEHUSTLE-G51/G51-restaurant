@@ -10,7 +10,7 @@ const Footer = () => {
             <p className="footer-subscription-heading">
                 Subscribe for the G-51 newsletter to be the first to receive our latest deals
             </p>
-            <p className="footer-subscription-text">You can subscribe at any time.</p>
+            <p className="footer-subscription-text">You can unsubscribe at any time.</p>
             <div className="input-areas">
                 <form>
                     <input type="email" name="email" placeholder="Your Email" className="footer-input"/>
