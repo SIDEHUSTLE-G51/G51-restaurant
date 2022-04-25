@@ -1,0 +1,25 @@
+@media screen and (min-width: 764px) {
+  .sectionOne {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.sectionOne{
+    background-color: #BFF2BB;
+}
+.sectionOne div:first-child {
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
+.sectionOne div:first-child h1 {
+  font-size: 80px;
+}
+.sectionOne div:first-child button {
+  padding: 12px 40px;
+  margin-top: 10px;
+  border-radius: 20px;
+  background-color: #54a452;
+  border: #54a452;
+  color: white;
+}
