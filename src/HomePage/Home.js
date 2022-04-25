@@ -24,11 +24,11 @@ function Home() {
           <img src={food} alt="food" className="food" />
         </div>
       </div>
-      {/* <div className="sectionTwo">
+       <div className="sectionTwo">
         <div>
-          <Button props={"TOP DISHES"} />
-        </div> */}
-        {/* <div className="cardSection">
+          <Button props={"TOP DISHES"}  className="btttn"/>
+        </div> 
+        <div className="cardSection">
         <div className="cards">
             <img src={foodFour} alt="food" className="foodOne" />
             <span>
@@ -82,7 +82,7 @@ function Home() {
             </span>
           </div>
         </div>
-      </div> */}
+      </div> 
     </div>
   );
 }
