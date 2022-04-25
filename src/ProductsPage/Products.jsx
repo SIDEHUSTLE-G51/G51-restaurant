@@ -3,13 +3,13 @@ import data from "./components/data";
 import Card from "./components/Card";
 
 const Products = () => {
-  console.log(data);
+   
   const superSaver = data["superData"].map((item) => {
-    return <Card title={item.title} price={item.price} key={item.id} />;
+    return <Card image ={item.image} title={item.title} price={item.price} key={item.id} />;
   });
 
   const popularMeals = data["products"].map((item) => {
-    return <Card title={item.title} price={item.price} key={item.id} />;
+    return <Card image= {item.image} title={item.title} price={item.price} key={item.id} />;
   });
 
   return (
