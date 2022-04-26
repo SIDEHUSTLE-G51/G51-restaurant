@@ -1,11 +1,11 @@
 import React from "react";
-
+import "./card.css";
 export default function Card(props) {
   const { image, title, price } = props;
   return (
     <div className="card">
       <div className="card-image">
-        <img src={image} alt={title} />
+        <img src={image} alt={title} className="card-img"/>
       </div>
       <div className="card-body">
         {title}
