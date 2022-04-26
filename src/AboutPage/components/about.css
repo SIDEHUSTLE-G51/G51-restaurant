@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+ /* page  */
+main.big-container{
+    background: #98E99080;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+
+  .container{
+      margin: 10vh 10vw;
+      display: flex;
+      justify-content: space-around;
+  }
+
+
+  /* Header  */
+.about-bg{
+    /* background-image: url(header-bg); */
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    background: transparent;
+    color: #fff;
+  }
+
+  /* first section  */
+  .first{
+      max-width: 672px;
+  }
+  .first p{
+      font-size: 13px;
+      line-height: 1.5;
+      margin-bottom: 30px;
+      width: 500px;
+  }
+  /* second section  */
+  .second{
+      position: relative;
+  }
+  .list-box{
+      width: 400px;
+      background: #54A452;
+      color: #fff;
+      list-style: none;
+      text-align: center;
+      line-height: 5;
+      /* position: absolute;
+      left: 0; */
+  }
+  .list-box li{
+      cursor: pointer;
+  }

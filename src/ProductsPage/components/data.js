@@ -5,7 +5,7 @@ import french from '../../images/French Fries (Chips).png'
 import jrice from '../../images/Jollof Rice (Per Spoons).png'
 import tantis from '../../images/Tantis Fish Ola.png'
 import wrice from '../../images/White Rice (Per Spoons).png'
-import wrice from '../../images/Coconut Rice (Per Spoons).png'
+//import wrice from '../../images/Coconut Rice (Per Spoons).png'
 
 const data = {
   superData: [
@@ -59,12 +59,12 @@ const data = {
       title: "Fried Rice (per Spoons)",
       price: "1,700",
     },
-    {
-      id: 9,
-      image: crice,
-      title: "Coconut Rice (per Spoons)",
-      price: "200",
-    },
+    // {
+    //   id: 9,
+    //   image: crice,
+    //   title: "Coconut Rice (per Spoons)",
+    //   price: "200",
+    // },
   ],
 };
 
