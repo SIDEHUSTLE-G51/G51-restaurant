@@ -14,11 +14,7 @@ const Navbar = () => {
         className={responsive ? "nav-links-mobile" : "nav-links"}
         onClick={() => setResponsive(false)}
       >
-<<<<<<< HEAD
-        <Link to="/home" className='home'>
-=======
         <Link to="/" className="home">
->>>>>>> 8f2ba50e941203e03777290cb1ad69560eabadd9
           <li>Home</li>
         </Link>
         <Link to="/about" className="about">

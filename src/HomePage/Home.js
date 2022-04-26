@@ -8,6 +8,7 @@ import foodFour from "./../images/Frame 2.svg";
 
 import "./home.css";
 import { Link } from "react-router-dom";
+
 function Home() {
   return (
     <div>
@@ -48,8 +49,8 @@ function Home() {
               <h6> Taiwanese Beef </h6> <p>&#8358;3500</p>
             </span>
             <p>
-            Ingredients: Noodles, Beef <br/>
-Soy sauce, extra vegetables
+              Ingredients: Noodles, Beef <br />
+              Soy sauce, extra vegetables
             </p>
             <span>
               <Button props={"Order Now"} /> <Button props={"Book a Table"} />
@@ -83,6 +84,7 @@ Soy sauce, extra vegetables
           </div>
         </div>
       </div>
+      
     </div>
   );
 }
