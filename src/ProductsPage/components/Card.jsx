@@ -26,7 +26,7 @@ export default function Card(props) {
         <div className="order-wrapper">
           <div className="order-section">
             <button className="order-button">Order Now</button>
-            <input type="number" placeholder="0"></input>
+            <input className="order-input" type="number" placeholder="0"></input>
           </div>
 
           <div className="price">

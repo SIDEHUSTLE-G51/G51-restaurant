@@ -58,7 +58,7 @@ hr {
   line-height: 1.5rem;
 }
 
-.order-wrapper{
+.order-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -67,10 +67,15 @@ hr {
   display: flex;
 }
 
-.order-section input {
-  width: 30px;
+.order-input {
+  width: 50px;
+  padding: 10px;
   margin-left: 10px;
-  text-align: center;
+  border-radius: 5px;
+  color: #000000;
+  border: none;
+  outline: none;
+  background-color: #dadada;
 }
 
 .order-button {
@@ -81,11 +86,13 @@ hr {
   text-transform: uppercase;
   padding: 14px;
   font-weight: 600;
+  border-radius: 5px;
 }
 
 .order-button:hover {
   background: #ffffff;
   color: #075200;
+  border: 1px solid #000000;
 }
 
 .price {
