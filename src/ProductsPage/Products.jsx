@@ -1,6 +1,7 @@
 import React from "react";
 import data from "./components/data";
 import Card from "./components/Card";
+import './components/card.css'
 
 const Products = () => {
    
