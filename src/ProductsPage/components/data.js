@@ -5,7 +5,11 @@ import french from '../../images/French Fries (Chips).png'
 import jrice from '../../images/Jollof Rice (Per Spoons).png'
 import tantis from '../../images/Tantis Fish Ola.png'
 import wrice from '../../images/White Rice (Per Spoons).png'
+<<<<<<< Updated upstream
 // import wrice from '../../images/Coconut Rice (Per Spoons).png'
+=======
+// import crice from '../../images/Coconut Rice (Per Spoons).png'
+>>>>>>> Stashed changes
 
 const data = {
   superData: [
