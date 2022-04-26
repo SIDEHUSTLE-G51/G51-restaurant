@@ -24,12 +24,12 @@ function Home() {
           <img src={food} alt="food" className="food" />
         </div>
       </div>
-       <div className="sectionTwo">
+      <div className="sectionTwo">
         <div>
-          <Button props={"TOP DISHES"}  className="btttn"/>
-        </div> 
+          <button className="bttn">TOP DISHES</button>
+        </div>
         <div className="cardSection">
-        <div className="cards">
+          <div className="cards">
             <img src={foodFour} alt="food" className="foodOne" />
             <span>
               <h6>Spicy Pizza</h6> <p>&#8358;3500</p>
@@ -45,11 +45,11 @@ function Home() {
           <div className="cards">
             <img src={foodOne} alt="food" className="foodOne" />
             <span>
-              <h6>Spicy Pizza</h6> <p>&#8358;3500</p>
+              <h6> Taiwanese Beef </h6> <p>&#8358;3500</p>
             </span>
             <p>
-              Ingredients: Mushroom, chicken <br />
-              cheese, hot mexican jalapeno
+            Ingredients: Noodles, Beef <br/>
+Soy sauce, extra vegetables
             </p>
             <span>
               <Button props={"Order Now"} /> <Button props={"Book a Table"} />
@@ -58,11 +58,11 @@ function Home() {
           <div className="cards">
             <img src={foodTwo} alt="food" className="foodOne" />
             <span>
-              <h6>Spicy Pizza</h6> <p>&#8358;3500</p>
+              <h6>Shrimp Risotto</h6> <p>&#8358;3500</p>
             </span>
             <p>
-              Ingredients: Mushroom, chicken <br />
-              cheese, hot mexican jalapeno
+              Ingredients: shrimp, cream <br />
+              rice, yorghurt, spring onion
             </p>
             <span>
               <Button props={"Order Now"} /> <Button props={"Book a Table"} />
@@ -71,18 +71,18 @@ function Home() {
           <div className="cards">
             <img src={foodThree} alt="food" className="foodOne" />
             <span>
-              <h6>Spicy Pizza</h6> <p>&#8358;3500</p>
+              <h6>Yellow Curry</h6> <p>&#8358;3500</p>
             </span>
             <p>
-              Ingredients: Mushroom, chicken <br />
-              cheese, hot mexican jalapeno
+              Ingredients: Rice, chicken <br />
+              curry, parsley
             </p>
             <span>
               <Button props={"Order Now"} /> <Button props={"Book a Table"} />
             </span>
           </div>
         </div>
-      </div> 
+      </div>
     </div>
   );
 }
