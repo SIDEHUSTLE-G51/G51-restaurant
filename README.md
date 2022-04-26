@@ -24,7 +24,8 @@ git clone https://github.com/SIDEHUSTLE-G51/G51-restaurant.git
 
 #UI Concept Designs
 
-![Home](https://user-images.githubusercontent.com/21057939/164898329-1123cd47-5bd8-4ce5-8729-cd08f7cb4634.png)
+![Home](https://user-images.githubusercontent.com/21057939/165234921-98fc4a61-50fc-412f-a5ea-5268dc07bd38.png)
+
 
 # Step 2
 

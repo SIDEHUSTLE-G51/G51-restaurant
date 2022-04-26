@@ -1,0 +1,207 @@
+@media screen and (min-width: 764px) {
+  .sectionOne {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.sectionOne{
+    background-color: #BFF2BB;
+}
+.sectionOne div:first-child {
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
+.sectionOne div:first-child h1 {
+  font-size: 30px;
+  padding-top: 10px;
+}
+.sectionOne div:first-child button {
+  padding: 12px 40px;
+  margin-top: 10px;
+  border-radius: 20px;
+  background-color: #54a452;
+  border: #54a452;
+  color: white;
+}
+.food{
+    padding-top: 20px;
+    width: 100%;
+}
+@media screen and (min-width:764px) {
+   .food{
+       padding-top: 0px;
+   }
+} 
+
+ @media screen and (min-width:764px) {
+    .sectionOne div:first-child h1 {
+        font-size: 60px;
+        padding-top: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+} 
+@media screen and (min-width:1000px) {
+    .sectionOne div:first-child h1 {
+        font-size: 80px;
+        padding-top: 0px;
+      }
+} 
+.sectionTwo{
+    background-color: #34eb86;
+    padding: 4vw;
+
+
+}
+
+/* .Danger {
+    background-color: red;
+} */
+ .bttn{
+   background-color: #54a452;
+   border: #54a452;
+   outline: none;
+   color: white;
+   padding: 10px 20px;
+   margin-bottom: 10px;
+   margin-top: 20px;
+   
+} 
+@media screen and (min-width:768px) {
+   .sectionTwo .bttn {
+       padding: 20px 80px;
+       margin-left: 3vw;
+       margin-bottom: 20px;
+       font-size: 20px;
+   } 
+}
+@media screen and (min-width:1375px) {
+    .sectionTwo .bttn {
+       
+        margin-left: 8vw;
+       
+    } 
+ }
+/* @media screen and (min-width:764px) {
+    .sectionTwo div:first-child button{
+        padding: 5px 5px;
+    }
+} */
+@media screen and (min-width:764px) {
+    
+    .cardSection{ 
+        display: flex;
+        justify-content: space-between;
+        
+        margin: auto; 
+        max-width: 1200px;
+    } 
+}
+.cards{
+background-color: white;
+margin-bottom: 20px;
+}
+.foodOne{
+    width: 100%;
+}
+@media screen and (min-width:764px){
+    .foodOne{
+        width: 100%;
+    }
+}
+
+.foodOne +span{
+   display: flex; 
+   justify-content: space-between;
+  padding: 3vw;
+} 
+@media screen and (min-width:764px) {
+   .foodOne + span {
+      padding: 2vw;
+   }  
+}
+.foodOne +span h6{
+    font-weight: 700;
+    font-size: 5vw;
+}
+@media screen and (min-width:764px){
+    .foodOne +span h6{
+        font-size: 17px;
+        
+    }
+}
+.foodOne +span p{
+    color:  #FF0000;
+
+    font-size: 4vw;
+    font-weight: 700;
+    font-weight: bold;
+}
+@media screen and (min-width:764px){
+    .foodOne +span p{
+        font-size: 16px;
+    }
+
+}
+
+.foodOne +span+p{
+    font-size: 4vw;
+    padding-left: 3vw;
+}
+@media screen and (min-width:764px){
+    .foodOne +span+p{
+        font-size: 12px;
+        padding-left: 2vw;
+        padding-right: 3px
+    }
+
+}
+
+.foodOne +span+p+span{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+.foodOne +span+p+span button{
+    background-color: #54a452;
+    border: #54a452;
+    outline: none;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+@media  screen and (min-width:764px) {
+    .foodOne +span+p+span button{
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    .foodOne +span+p+span{
+        padding-left: 2vw;
+        padding-right: 2vw;
+        display: grid;
+    }
+    /* .sectionTwo div:first-child button{
+        padding: 5px 10px;
+        font-size: 12px;
+        
+    } */
+}
+@media screen and (min-width:1096px) {
+    .foodOne +span+p+span{
+        /* padding-left: 2vw;
+        padding-right: 2vw; */
+        display: flex;
+    }
+}
+@media screen and (min-width:764px) {
+    .cards{
+        width: 20vw;
+        margin-left: 25px;
+    }
+    
+}
