@@ -14,7 +14,7 @@ export default function Card(props) {
           pellentesque ultricies consectetur purus tempor tincidunt ut
           dignissim. praesent placerat felis. Faucibus vitae auctor consectetur.
         </article>
-        <h4 style={{ color: "red" }}>Ingredients</h4>
+        <h4 style={{ color: "red", fontSize: '.9rem' }}>Ingredients</h4>
         <article>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis
           pellentesque ultricies consectetur purus tempor tincidunt ut
