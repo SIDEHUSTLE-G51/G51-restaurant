@@ -58,8 +58,19 @@ hr {
   line-height: 1.5rem;
 }
 
+.order-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .order-section {
   display: flex;
+}
+
+.order-section input {
+  width: 30px;
+  margin-left: 10px;
+  text-align: center;
 }
 
 .order-button {
@@ -75,4 +86,9 @@ hr {
 .order-button:hover {
   background: #ffffff;
   color: #075200;
+}
+
+.price {
+  color: #ff0000;
+  font-size: 1.4rem;
 }

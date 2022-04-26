@@ -14,7 +14,7 @@ export default function Card(props) {
           pellentesque ultricies consectetur purus tempor tincidunt ut
           dignissim. praesent placerat felis. Faucibus vitae auctor consectetur.
         </article>
-        <h4 style={{ color: "red", fontSize: '.9rem' }}>Ingredients</h4>
+        <h4 style={{ color: "red", fontSize: ".9rem" }}>Ingredients</h4>
         <article>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis
           pellentesque ultricies consectetur purus tempor tincidunt ut
@@ -23,13 +23,15 @@ export default function Card(props) {
           placerat felis. Faucibus vitae auctor consectetur.
         </article>
 
-        <div className="order-section">
-          <button className="order-button">Order Now</button>
-          <input type="number" placeholder="0"></input>
-        </div>
+        <div className="order-wrapper">
+          <div className="order-section">
+            <button className="order-button">Order Now</button>
+            <input type="number" placeholder="0"></input>
+          </div>
 
-        <div className="price">
-          <h3>{price}</h3>
+          <div className="price">
+            <h3>#{price}</h3>
+          </div>
         </div>
       </div>
     </div>
