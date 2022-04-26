@@ -59,12 +59,12 @@ const data = {
       title: "Fried Rice (per Spoons)",
       price: "1,700",
     },
-    {
-      id: 9,
-      image: crice,
-      title: "Coconut Rice (per Spoons)",
-      price: "200",
-    },
+    // {
+    //   id: 9,
+    //   image: crice,
+    //   title: "Coconut Rice (per Spoons)",
+    //   price: "200",
+    // },
   ],
 };
 
