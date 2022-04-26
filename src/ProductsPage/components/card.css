@@ -25,8 +25,19 @@ hr {
   margin: 20px 0;
 }
 
+.card-image {
+  width: 100%;
+}
+
 .card-img {
   width: 376.43px;
+}
+
+.card-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #075200;
 }
 
 .card-body article {

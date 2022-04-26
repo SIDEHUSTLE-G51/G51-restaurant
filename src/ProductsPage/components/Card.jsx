@@ -5,10 +5,10 @@ export default function Card(props) {
   return (
     <div className="card">
       <div className="card-image">
-        <img src={image} alt={title} className="card-img"/>
+        <img src={image} alt={title} className="card-img" />
       </div>
       <div className="card-body">
-        {title}
+        <h1 className="card-title">{title}</h1>
         <article>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis
           pellentesque ultricies consectetur purus tempor tincidunt ut
