@@ -1,89 +1,90 @@
-*{
-    font-family: 'Inter', sans-serif;
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.navbar{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 75px;
-    background-color: #54A452;
-    color: #fff;
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+  background-color: #54a452;
+  color: #fff;
 }
 
-.logo{
-    font-size: 30px;
+.logo {
+  font-size: 30px;
 }
 
-.nav-links{
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
-    width: 75%;
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  align-items: center;
+  width: 75%;
 }
 
 .home,
 .about,
 .products,
-.contact{
-    text-decoration: none;
-    color: #fff;
-    font-size: 20px;
-    padding: 10px 20px;
-    margin: 0 10px;
-    cursor: pointer;
+.contact {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
 }
 
-.mobile-menu-icon{
+.mobile-menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 760px) {
+  .logo {
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 35px;
+  }
+
+  .nav-links {
     display: none;
-}
+  }
 
-@media screen and (max-width:760px) {
-    .logo{
-        display: flex;
-        position: absolute;
-        top: 15px;
-        left:35px;
-    }
+  .nav-links-mobile {
+    position: absolute;
+    display: block;
+    list-style: none;
+    background-color: #54a452;
+    left: 0;
+    top: 75px;
+    transition: all 0.5s ease-out;
+    width: 100%;
+  }
 
-    .nav-links{
-        display: none;
-    }
+  .home,
+  .about,
+  .products,
+  .contact {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    transition: all 0.5s ease;
+  }
 
-    .nav-links-mobile{
-        position: absolute;
-        display: block;
-        list-style: none;
-        background-color: #54A452;
-        left: 0;
-        top: 75px;
-        transition: all 0.5s ease-out;
-        width: 100%;
-    }
-
-    .home,
-    .about,
-    .products,
-    .contact{
-        color: #fff;
-        text-align: center;
-        padding: 10px;
-        width: 100%;
-        transition: all 0.5s ease;
-    }
-
-    .mobile-menu-icon{
-        display: block;
-        position: absolute;
-        font-size: 30px;
-        color: #fff;
-        background-color: #54A452;
-        border: none;
-        outline: none;
-        top: 15px;
-        right: 25px;
-    }
+  .mobile-menu-icon {
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    color: #fff;
+    background-color: #54a452;
+    border: none;
+    outline: none;
+    top: 15px;
+    right: 25px;
+  }
 }

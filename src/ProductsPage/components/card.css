@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-.products {
-  margin-top: 30px;
-}
 .product-title {
   color: #000000;
   text-transform: uppercase;
