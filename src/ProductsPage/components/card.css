@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.product-title {
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin-top: 50px;
+}
+
+.superSaver-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popularMeal-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+hr {
+  margin-top: 10px;
+  border: 0.75px solid #e6e6e6;
+}
+
+.card {
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
+  margin: 20px 0;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.card-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #075200;
+}
+
+.card-body {
+  padding: 31px;
+}
+
+.card-body article {
+  color: #767676;
+  font-size: 0.8rem;
+  margin: 15px 0;
+  line-height: 1.5rem;
+}
+
+.order-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.order-section {
+  display: flex;
+}
+
+.order-input {
+  width: 50px;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  color: #000000;
+  border: none;
+  outline: none;
+  background-color: #dadada;
+}
+
+.order-button {
+  background: #075200;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  padding: 14px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.order-button:hover {
+  background: #ffffff;
+  color: #075200;
+  border: 1px solid #000000;
+}
+
+.price {
+  color: #ff0000;
+  font-size: 1.4rem;
+}
