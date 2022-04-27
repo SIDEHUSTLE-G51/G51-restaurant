@@ -6,6 +6,7 @@
 }
 .sectionOne{
     background-color: #BFF2BB;
+    padding-top: 50px;
 }
 .sectionOne div:first-child {
   text-align: center;
@@ -63,9 +64,9 @@
    border: #54a452;
    outline: none;
    color: white;
-   padding: 10px 20px;
+   padding: 10px ;
    margin-bottom: 10px;
-   margin-top: 20px;
+   margin-top: 0.5rem;
    
 } 
 @media screen and (min-width:768px) {

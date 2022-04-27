@@ -12,43 +12,53 @@
 }
 
 .superSaver-wrapper {
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
 }
 
 .popularMeal-wrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 hr {
-  margin-top: 10px;
+  margin: 10px;
   border: 0.75px solid #e6e6e6;
 }
 
 .card {
   width: 370px;
+  height: auto;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+  /* flex-direction: column; */
   background-color: white;
   box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
-  margin: 20px 0;
+  margin: 0.5rem;
 }
 
 .card-img {
   width: 100%;
+  position: relative;
+  border-radius: 0.5rem;
 }
 
 .card-title {
   font-style: normal;
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #075200;
+  text-transform: uppercase;
 }
 
 .card-body {
-  padding: 31px;
+  padding: 20px;
 }
 
 .card-body article {
@@ -75,6 +85,7 @@ hr {
   color: #000000;
   border: none;
   outline: none;
+  text-align: center;
   background-color: #dadada;
 }
 
@@ -84,7 +95,7 @@ hr {
   border: none;
   outline: none;
   text-transform: uppercase;
-  padding: 14px;
+  padding: 10px;
   font-weight: 600;
   border-radius: 5px;
 }
@@ -97,5 +108,12 @@ hr {
 
 .price {
   color: #ff0000;
-  font-size: 1.4rem;
+  font-size: 1rem;
+}
+
+@media screen and (max-width:1024px) {
+  .superSaver-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
 }

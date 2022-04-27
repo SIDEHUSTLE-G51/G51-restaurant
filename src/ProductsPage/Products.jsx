@@ -2,6 +2,8 @@ import React from "react";
 import data from "./components/data";
 import Card from "./components/Card";
 import "./components/card.css";
+import {CgGym} from 'react-icons/cg'
+import { FcMoneyTransfer } from 'react-icons/fc'
 
 const Products = () => {
   const superSaver = data["superData"].map((item) => {
@@ -27,11 +29,11 @@ const Products = () => {
   });
 
   return (
-    <section className="products">
-      <h2 className="product-title">Super Saver</h2>
+    <section className="products" style={{ paddingTop:'50px'}}>
+      <h2 className="product-title">Super Saver <FcMoneyTransfer/> </h2>
       <hr />
       <div className="superSaver-wrapper">{superSaver}</div>
-      <h2 className="product-title">Popular Meals</h2>
+      <h2 className="product-title">Popular Meals <CgGym/> </h2>
       <hr />
       <div className="popularMeal-wrapper">{popularMeals}</div>
     </section>
